@@ -1,17 +1,19 @@
 name: "rand_core"
-description:
-    "Core random number generator traits and tools for implementation."
-
+description: "Core random number generator traits and tools for implementation."
 third_party {
   url {
     type: HOMEPAGE
     value: "https://crates.io/crates/rand_core"
   }
   url {
-    type: GIT
-    value: "https://github.com/rust-random/rand"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/rand_core/rand_core-0.5.1.crate"
   }
   version: "0.5.1"
-  last_upgrade_date { year: 2020 month: 6 day: 18 }
   license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 6
+    day: 18
+  }
 }
