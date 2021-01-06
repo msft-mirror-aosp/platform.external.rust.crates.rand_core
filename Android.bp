@@ -45,5 +45,5 @@ rust_test {
 
 // dependent_library ["feature_list"]
 //   cfg-if-0.1.10
-//   getrandom-0.1.14 "std"
-//   libc-0.2.72
+//   getrandom-0.2.0 "std"
+//   libc-0.2.81
