@@ -2,10 +2,6 @@
 {
   "presubmit": [
     {
-      "host": true,
-      "name": "rand_core_host_test_src_lib"
-    },
-    {
       "name": "rand_core_device_test_src_lib"
     }
   ]
