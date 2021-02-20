@@ -1,12 +1,12 @@
 [package]
 name = "rand_core"
-version = "0.6.0"
+version = "0.6.2"
 authors = ["The Rand Project Developers", "The Rust Project Developers"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/rust-random/rand"
-documentation = "https://rust-random.github.io/rand/rand_core/"
-homepage = "https://crates.io/crates/rand_core"
+documentation = "https://docs.rs/rand_core"
+homepage = "https://rust-random.github.io/book"
 description = """
 Core random number generator traits and tools for implementation.
 """
@@ -28,3 +28,6 @@ getrandom = { version = "0.2", optional = true }
 # RUSTDOCFLAGS="--cfg doc_cfg" cargo +nightly doc --all-features --no-deps --open
 all-features = true
 rustdoc-args = ["--cfg", "doc_cfg"]
+
+[package.metadata.playground]
+all-features = true
