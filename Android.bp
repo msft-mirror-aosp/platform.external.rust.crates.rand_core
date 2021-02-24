@@ -36,6 +36,9 @@ rust_defaults {
 rust_test_host {
     name: "rand_core_host_test_src_lib",
     defaults: ["rand_core_defaults"],
+    test_options: {
+        unit_test: true,
+    },
 }
 
 rust_test {
@@ -44,6 +47,6 @@ rust_test {
 }
 
 // dependent_library ["feature_list"]
-//   cfg-if-0.1.10
-//   getrandom-0.2.0 "std"
-//   libc-0.2.81
+//   cfg-if-1.0.0
+//   getrandom-0.2.2 "std"
+//   libc-0.2.86
