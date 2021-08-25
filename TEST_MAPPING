@@ -2,6 +2,15 @@
 {
   "presubmit": [
     {
+      "name": "base64_device_test_tests_decode"
+    },
+    {
+      "name": "base64_device_test_tests_encode"
+    },
+    {
+      "name": "base64_device_test_tests_helpers"
+    },
+    {
       "name": "crossbeam-epoch_device_test_src_lib"
     },
     {
@@ -30,6 +39,9 @@
     },
     {
       "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
     },
     {
       "name": "rand_core_device_test_src_lib"
@@ -234,9 +246,6 @@
     },
     {
       "name": "tokio_device_test_tests_uds_split"
-    },
-    {
-      "name": "legacykeystore_test"
     }
   ]
 }
