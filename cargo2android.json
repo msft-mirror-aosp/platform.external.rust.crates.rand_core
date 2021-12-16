@@ -5,7 +5,7 @@
   ],
   "dependencies": true,
   "device": true,
+  "features": "std",
   "run": true,
-  "tests": true,
-  "features": "std"
+  "tests": true
 }
