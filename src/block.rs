@@ -114,12 +114,6 @@ pub trait BlockRngCore {
 /// [`try_fill_bytes`]: RngCore::try_fill_bytes
 #[derive(Clone)]
 #[cfg_attr(feature = "serde1", derive(Serialize, Deserialize))]
-#[cfg_attr(
-    feature = "serde1",
-    serde(
-        bound = "for<'x> R: Serialize + Deserialize<'x> + Sized, for<'x> R::Results: Serialize + Deserialize<'x>"
-    )
-)]
 pub struct BlockRng<R: BlockRngCore + ?Sized> {
     results: R::Results,
     index: usize,
