@@ -23,6 +23,12 @@
       "path": "external/rust/crates/crossbeam-utils"
     },
     {
+      "path": "external/rust/crates/flate2"
+    },
+    {
+      "path": "external/rust/crates/hashbrown"
+    },
+    {
       "path": "external/rust/crates/mio"
     },
     {
@@ -42,6 +48,9 @@
     },
     {
       "path": "external/rust/crates/tokio"
+    },
+    {
+      "path": "external/rust/crates/zerocopy"
     }
   ],
   "presubmit": [
@@ -55,6 +64,9 @@
       "name": "authfs_device_test_src_lib"
     },
     {
+      "name": "avmdtool_tests"
+    },
+    {
       "name": "keystore2_client_tests"
     },
     {
@@ -70,13 +82,25 @@
       "name": "legacykeystore_test"
     },
     {
+      "name": "libdm_rust.test"
+    },
+    {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
+      "name": "libuwb_core_tests"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
       "name": "rand_core_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
     }
   ],
   "presubmit-rust": [
@@ -90,6 +114,9 @@
       "name": "authfs_device_test_src_lib"
     },
     {
+      "name": "avmdtool_tests"
+    },
+    {
       "name": "keystore2_client_tests"
     },
     {
@@ -105,13 +132,25 @@
       "name": "legacykeystore_test"
     },
     {
+      "name": "libdm_rust.test"
+    },
+    {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
+      "name": "libuwb_core_tests"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
       "name": "rand_core_test_src_lib"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
     }
   ]
 }
