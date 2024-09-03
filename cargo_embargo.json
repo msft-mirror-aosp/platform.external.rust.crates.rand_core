@@ -1,7 +1,0 @@
-{
-  "features": [
-    "std"
-  ],
-  "run_cargo": false,
-  "tests": true
-}
